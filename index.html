@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AGÊNCIA 02F</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/estilo.css" />
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css" />
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3-theme-black.css" />
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" />
+    </head>
+    <body id="myPage">
+        <header class="w3-top">
+            <ul class="w3-navbar w3-theme-d2 w3-left-align w3-large">
+                <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
+                    <a class="w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+                </li>
+                <li><a href="index.html" class="w3-red"><i class="fa fa-home w3-margin-right"></i>AGÊNCIA 02F</a></li>
+                <li class="w3-hide-small"><a href="index.html" class="w3-hover-white">Home</a></li>
+                <li class="w3-hide-small w3-dropdown-hover">
+                    <a href="#" class="w3-hover-white" title="Destinos">Destinos <i class="fa fa-caret-down"></i></a>     
+                    <div class="w3-dropdown-content w3-white w3-card-4">
+                        <a href="nacionais.html">Nacionais</a>
+                        <a href="internacionais.html">Internacionais</a>
+                    </div>
+                </li>
+                <li class="w3-hide-small"><a href="#cruzeiros" class="w3-hover-white">Cruzeiros</a></li>
+                <li class="w3-hide-small"><a href="#equipe" class="w3-hover-white">Equipe</a></li>
+                <li class="w3-hide-small"><a href="#contato" class="w3-hover-white">Contato</a></li>
+            </ul>
+            <div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:43px;">
+                <ul class="w3-navbar w3-left-align w3-large w3-theme">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#destinos">Destinos</a></li>
+                    <li><a href="#cruzeiros">Cruzeiros</a></li>
+                    <li><a href="#equipe">Equipe</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </header>
+        <section class="w3-content w3-display-container" style="max-width:100%">
+            <img class="mySlides" src="img/destaque01.jpg" style="width:100%">
+            <img class="mySlides" src="img/destaque02.jpg" style="width:100%">
+            <img class="mySlides" src="img/destaque03.jpg" style="width:100%">
+            <img class="mySlides" src="img/destaque04.jpg" style="width:100%">
+            <img class="mySlides" src="img/destaque05.jpg" style="width:100%">
+            <div class="w3-center w3-section w3-large w3-text-white w3-display-bottomleft" style="width:100%">
+                <div class="w3-left w3-padding-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+                <div class="w3-right w3-padding-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+            </div>
+        </section>
+        <a name="equipe"></a>
+        <section class="w3-container w3-padding-64 w3-center">
+            <h2>EQUIPE</h2>
+            <p>Nossa equipe à disposição para atendimento:</p>
+            <div class="w3-row"><br />
+                <div class="w3-quarter w3-red">
+                    <img src="img/prf02.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+                    <h3>CESAR MARIANO</h3>
+                    <p>Destinos Nacionais</p>
+                </div>
+                <div class="w3-quarter w3-light-grey">
+                    <img src="img/prf01.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+                    <h3>NICOLAS TOLEDO</h3>
+                    <p>Destinos Internacionais</p>
+                </div>
+                <div class="w3-quarter w3-red">
+                    <img src="img/prf03.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+                    <h3>VINICIUS MIANA</h3>
+                    <p>Cruzeiros Marítimos</p>
+                </div>
+                <div class="w3-quarter w3-light-grey">
+                    <img src="img/prf04.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+                    <h3>FABIANA SILVESTRE</h3>
+                    <p>Documentos e Vistos</p>
+                </div>
+            </div>
+        </section>
+        <a name="cruzeiros"></a>
+        <section class="w3-row-padding w3-padding-64 w3-theme-l5">
+            <div class="w3-quarter">
+                <h2>CRUZEIROS MARÍTIMOS</h2>
+                <p>
+                    Fazer um cruzeiro é a melhor maneira de fugir do modo de vida contemporâneo repleto de pressões, stress e monotonias.<br /><br />
+                    Um navio é um resort completo por si só. Ele é a acomodação, o entretenimento e o transporte capaz de levar-nos aos mais variados destinos no espaço de apenas alguns dias.<br /><br />
+                    Não há uma maneira mais tranqüila de visitar várias cidades, já que não existe a necessidade de arrumar as malas cada vez que partimos para uma nova aventura. Afinal, um cruzeiro é um resort que nos transporta a nossos destinos de escolha!
+                </p>
+            </div>
+            <div class="w3-quarter">
+                <div class="w3-card-2 w3-white">
+                    <img src="img/msc-cruzeiros.jpg" alt="MSC CRUZEIROS" style="width:100%">
+                    <div class="w3-container">
+                        <h3>MSC CRUZEIROS</h3>
+                        <h4>A MSC Cruzeiros recebe todos os tipos de viajantes. Casais em lua de mel que desejam o aconchego de um ambiente especial.</h4>
+                        <p>MSC Armonia</p>
+                        <p>MSC Musica</p>
+                        <p>MSC Orchestra</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-quarter">
+                <div class="w3-card-2 w3-white">
+                    <img src="img/costa-cruzeios.jpg" alt="COSTA CRUZEIROS" style="width:100%">
+                    <div class="w3-container">
+                        <h3>COSTA CRUZEIROS</h3>
+                        <h4>Descubra as emoções de umas férias a bordo da Costa. Um cruzeiro da Costa supera todas as suas melhores expectativas.</h4>
+                        <p>Costa Fortuna</p>
+                        <p>Costa Pacifica</p>
+                        <p>Costa Magica</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-quarter">
+                <div class="w3-card-2 w3-white">
+                    <img src="img/disney-cruzeios.jpg" alt="DISNEY CRUISE LINE" style="width:100%">
+                    <div class="w3-container">
+                        <h3>DISNEY CRUISE LINE</h3>
+                        <h4>Os cruzeiros da Disney são os únicos da lista com capacidade para milhares de passageiros e, principalmente, são específicos para famílias com crianças.</h4>
+                        <p>Disney Magic</p>
+                        <p>Disney Wonder</p>
+                        <p>Disney Dream</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <a name="provas"></a>
+        <section class="w3-row-padding w3-center w3-padding-64">
+            <h2>FERIADOS EM PROMOÇÃO</h2>
+            <p>Pacotes com saídas específicas para os feriados.</p><br>
+            <div class="w3-third w3-margin-bottom">
+                <ul class="w3-ul w3-border w3-hover-shadow">
+                    <li class="w3-theme">
+                        <p class="w3-xlarge">Natal</p>
+                    </li>
+                    <li class="w3-padding-16"><b>21 a 28/dez/2016</b></li>
+                    <li class="w3-padding-16">Florianópolis</li>
+                    <li class="w3-padding-16">Incluso: passagem aérea e hospedagem com café da manhã</li>
+                    <li class="w3-padding-16">Não Incluso: passeios e refeições</li>
+                    <li class="w3-theme-l5 w3-padding-24">
+                        <button class="w3-btn w3-red w3-padding-large"><i class="fa fa-check"></i> Reservar</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+                <ul class="w3-ul w3-border w3-hover-shadow">
+                    <li class="w3-theme-l2">
+                        <p class="w3-xlarge">Reveillon</p>
+                    </li>
+                    <li class="w3-padding-16"><b>28 a 04/jan/2017</b></li>
+                    <li class="w3-padding-16">Rio de Janeiro</li>
+                    <li class="w3-padding-16">Incluso: passagem aérea e hospedagem com café da manhã</li>
+                    <li class="w3-padding-16">Não Incluso: passeios e refeições</li>
+                    <li class="w3-theme-l5 w3-padding-24">
+                        <button class="w3-btn w3-red w3-padding-large"><i class="fa fa-check"></i> Reservar</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+                <ul class="w3-ul w3-border w3-hover-shadow">
+                    <li class="w3-theme">
+                        <p class="w3-xlarge">L&oacute;gica de Programa&ccedil;&atilde;o</p>
+                    </li>
+                    <li class="w3-padding-16"><b>07/jun/2016</b></li>
+                    <li class="w3-padding-16">Salvador</li>
+                    <li class="w3-padding-16">Incluso: passagem aérea e hospedagem com café da manhã</li>
+                    <li class="w3-padding-16">Não Incluso: passeios e refeições</li>
+                    <li class="w3-theme-l5 w3-padding-24">
+                        <button class="w3-btn w3-red w3-padding-large"><i class="fa fa-check"></i> Reservar</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <a name="contato"></a>
+        <section class="w3-container w3-padding-64 w3-theme-l5">
+            <div class="w3-row">
+                <div class="w3-col m5">
+                    <div class="w3-padding-16"><span class="w3-xlarge w3-border-red w3-bottombar">ONDE ESTAMOS</span></div>
+                    <h3>Universidade Presbiteriana Mackenzie</h3>
+                    <p><i class="fa fa-map-marker w3-text-red w3-xlarge"></i> Rua da Consola&ccedil;&atilde;o, 930 - Pr&eacute;dio 31</p>
+                    <p><i class="fa fa-phone w3-text-red w3-xlarge"></i> 11 2114-8000</p>
+                    <p><i class="fa fa-envelope-o w3-text-red w3-xlarge"></i> <a href="#">fci@mackenzie.br</a></p>
+                </div>
+                <div class="w3-col m7">
+                    <form class="w3-container w3-card-4 w3-padding-16 w3-white">
+                        <div class="w3-group">      
+                            <label class="w3-label">Nome</label>
+                            <input class="w3-input" type="text">
+                        </div>
+                        <div class="w3-group">      
+                            <label class="w3-label">E-mail</label>
+                            <input class="w3-input" type="text">
+                        </div>
+                        <div class="w3-group">      
+                            <label class="w3-label">Mensagem</label>
+                            <input class="w3-input" type="text">
+                        </div>  
+                        <input class="w3-check" type="checkbox" checked>
+                        <label class="w3-validate">Receber e-mail!</label>
+                        <button type="button" class="w3-btn w3-right w3-theme">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <div id="googleMap" style="width:100%;height:420px;"></div>
+        <script src="http://maps.googleapis.com/maps/api/js"></script>
+        <script>
+                    var myCenter = new google.maps.LatLng(-23.5475007, -46.6520635);
+
+                    function initialize() {
+                        var mapProp = {
+                            center: myCenter,
+                            zoom: 15,
+                            scrollwheel: false,
+                            draggable: false,
+                            mapTypeId: google.maps.MapTypeId.ROADMAP
+                        };
+
+                        var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+
+                        var marker = new google.maps.Marker({
+                            position: myCenter,
+                        });
+
+                        marker.setMap(map);
+                    }
+
+                    google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+        <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+            <h4>Redes Sociais</h4>
+            <a class="w3-btn-floating w3-red" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+            <a class="w3-btn-floating w3-red" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+            <a class="w3-btn-floating w3-red" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
+            <a class="w3-btn-floating w3-red w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+        </footer>
+    </body>
+    <script>
+        function w3_open() {
+            document.getElementsByClassName("w3-sidenav")[0].style.width = "300px";
+            document.getElementsByClassName("w3-sidenav")[0].style.textAlign = "center";
+            document.getElementsByClassName("w3-sidenav")[0].style.fontSize = "40px";
+            document.getElementsByClassName("w3-sidenav")[0].style.paddingTop = "10%";
+            document.getElementsByClassName("w3-sidenav")[0].style.display = "block";
+        }
+        function w3_close() {
+            document.getElementsByClassName("w3-sidenav")[0].style.display = "none";
+        }
+
+        // Used to toggle the menu on smaller screens when clicking on the menu button
+        function openNav() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function currentDiv(n) {
+            showDivs(slideIndex = n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            if (n > x.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = x.length
+            }
+            ;
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" w3-white", "");
+            }
+            x[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " w3-white";
+        }
+    </script>
+</html>
